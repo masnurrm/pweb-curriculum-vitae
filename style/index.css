@@ -364,6 +364,16 @@ main {
   color: var(--color-accent);
 }
 
+/* Skill Section */
+.section-skill__outer {
+    margin-top: 10rem;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
 /* Contact Section */
 .section-contact__outer {
   min-height: 90vh;
@@ -454,4 +464,19 @@ footer {
     justify-content: center;
     flex-direction: row;
   }
+}
+
+
+/* effect */
+mark {
+    display: inline-block;
+    line-height: 0em;
+    padding-bottom: 0.5em;
+  }
+
+.highlight {
+    background: linear-gradient(180deg, #00ffd9 100%, #00ffd9 100%);
+    color: black; 
+    border-radius: 5px; 
+    padding: 3px 10px 3px 10px;
 }
