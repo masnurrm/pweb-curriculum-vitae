@@ -64,6 +64,15 @@ a:hover {
   color: var(--color-foreground);
 }
 
+a:link { 
+    font-weight: 900;
+    color: black;
+}
+
+.cv {
+    text-decoration: none; 
+}
+
 /* Global class */
 
 .button {
